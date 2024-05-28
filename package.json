@@ -1,0 +1,21 @@
+{
+  "name": "atom-quiet-theme",
+  "displayName": "Atom Quiet Theme",
+  "description": "a theme combined with Atom One Light and Vscode Default Quiet.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Atom Quiet Theme",
+        "uiTheme": "vs",
+        "path": "./themes/Atom Quiet Theme-color-theme.json"
+      }
+    ]
+  }
+}
