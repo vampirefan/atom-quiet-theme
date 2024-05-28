@@ -1,12 +1,17 @@
 {
-  "name": "atom-quiet-theme",
-  "displayName": "Atom Quiet Theme",
-  "description": "a theme combined with Atom One Light and Vscode Default Quiet.",
+  "name": "atom-quiet-light",
+  "publisher": "vampirefan",
+  "displayName": "Atom Quiet Light",
+  "description": "a theme combined with Atom One Light and Default Quiet.",
+  "icon": "image/maskable-icon-512x512.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/vampirefan/atom-quiet-theme"
   },
-  "version": "0.0.1",
+  "scripts": {
+    "release": "bumpp package.json"
+  },
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.54.0"
   },
