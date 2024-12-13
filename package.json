@@ -26,5 +26,8 @@
         "path": "./themes/Atom Quiet Theme-color-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "bumpp": "^9.9.1"
   }
 }
